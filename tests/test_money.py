@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import unittest
-import Dollar
+from Dollar import Dollar
 
 
 class TestMoney(unittest.TestCase):
