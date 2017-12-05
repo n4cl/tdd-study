@@ -2,10 +2,11 @@
 
 
 class Dollar(object):
-    amount = 10
+
+    amount = 0
 
     def __init__(self, amount):
-        pass
+        self.amount = amount
 
     def times(self, multiplier):
-        pass
+        self.amount *= multiplier
