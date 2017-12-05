@@ -2,7 +2,7 @@
 
 
 class Dollar(object):
-    amount = 0
+    amount = 10
 
     def __init__(self, amount):
         pass
