@@ -3,8 +3,6 @@
 
 class Dollar(object):
 
-    amount = 0
-
     def __init__(self, amount):
         self.amount = amount
 
