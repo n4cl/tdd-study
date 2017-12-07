@@ -10,4 +10,4 @@ class Dollar(object):
         return Dollar(self.amount * multiplier)
 
     def equals(self, obj):
-        return True
+        return self.amount == obj.amount
