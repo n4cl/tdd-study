@@ -4,3 +4,5 @@
 - amountをprivateにする
 - ~~Dollarの副作用~~
 - Moneyの丸め処理
+- equals()
+- hashCode()
