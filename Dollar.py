@@ -11,3 +11,7 @@ class Dollar(object):
 
     def equals(self, obj):
         return self.amount == obj.amount
+
+    def __eq__(self, other):
+        # オブジェクトを比較した際には、このメソッドが呼ばれる
+        return self.amount == other.amount
