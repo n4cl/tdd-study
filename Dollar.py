@@ -1,7 +1,9 @@
 # coding: utf-8
 
+from Money import Money
 
-class Dollar(object):
+
+class Dollar(Money):
 
     def __init__(self, amount):
         self.__amount = amount
