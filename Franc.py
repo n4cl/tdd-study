@@ -1,17 +1,13 @@
 # coding: utf-8
 
+from Money import Money
 
-class Franc(object):
+
+class Franc(Money):
 
     def __init__(self, amount):
-        self.__amount = amount
+        super(Franc, self).__init__()
+        self._amount = amount
 
     def times(self, multiplier):
-        return Franc(self.__amount * multiplier)
-
-    def equals(self, obj):
-        return self.__amount == obj.__amount
-
-    def __eq__(self, other):
-        # オブジェクトを比較した際には、このメソッドが呼ばれる
-        return self.__amount == other.__amount
+        return Franc(self._amount * multiplier)
