@@ -28,3 +28,8 @@ class Money(object):
     def dollar(amount):
         from Dollar import Dollar
         return Dollar(amount)
+
+    @staticmethod
+    def franc(amount):
+        from Franc import Franc
+        return Franc(amount)
